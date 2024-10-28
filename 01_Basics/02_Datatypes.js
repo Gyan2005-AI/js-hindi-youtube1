@@ -17,7 +17,7 @@ let loggedIn = false
 
 
 // number => 2 to power 53
-// bigint is used in vast projects
+// bigint is used in vast projects.
 // string => ""
 // boolean => true/false
 // null => standalone value
