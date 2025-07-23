@@ -34,3 +34,32 @@ const myFunction = function(){
 }
 
 console.log(typeof heros);
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitive)
+
+let myYoutubename = "hiteshchoudharydotcom"
+let anotherame = myYoutubename
+anothername = "chaiaurcode"
+
+console.log(myYoutubename)
+console.log(anothername)
+
+ // in Stack it gives copy of data
+
+ let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl.com"
+ }
+  let userTwo = userOne
+
+  userTwo.email = "gyanchandra@google.com"
+
+  console.log(userOne.email)
+  console.log(userTwo.email)
+
+  // In Heap here we have given original reference of data so if we change in new one previous will change simultaneously
+
